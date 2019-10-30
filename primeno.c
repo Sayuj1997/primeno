@@ -14,12 +14,19 @@ int main()
             break;
         }
     }
+    if(n==1)
+    {
+        printf("It is not prime nor composite");
+    }
+    else
+    {
     if(flag==0)
     {
      printf("It is a prime no");
     }
     else{
         printf("it is not a prime no");
+    }
     }
   return 0;
 }
